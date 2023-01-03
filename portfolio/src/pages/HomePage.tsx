@@ -1,6 +1,9 @@
+import HeroSection from "../components/HeroSection"
+
 function HomePage(){
-    return (
-        <p>Hello! This is still under construction!</p>
+    return (<>
+        <HeroSection/>
+        </>
     )
 }
 

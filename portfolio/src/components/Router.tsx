@@ -7,6 +7,7 @@ function Router(){
     return(
         <Routes>
             <Route path='/' element={<HomePage/>}/>
+            <Route path='' element={<></>}/>
             <Route path='*' element={<ErrorPage/>}/>
         </Routes>
     )
