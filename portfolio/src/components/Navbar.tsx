@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Navbar(){
     // use this array to add more menu items to the navbar
-    const navbarMenuItems = [["HOME", "/"], ["ABOUT", "/about"], ["PROJECTS", "/projects"], ["CONTACT", "/contact"]]
+    const navbarMenuItems = [["HOME", "/"], ["ABOUT", "/oops"], ["PROJECTS", "/oops"], ["CONTACT", "/oops"]]
 
     return (
     <nav className="m-10 flex flex-col md:flex-row place-content-between pr-2">
