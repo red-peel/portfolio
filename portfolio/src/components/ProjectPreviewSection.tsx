@@ -9,7 +9,7 @@ function ProjectPreviewSection() {
         ],
         ["Sylvester Social", 
             "Full stack social media Single Page Application (SPA). Includes React.js front-end using TypeScript, and Java Spring Boot backend.", 
-            "https://i5.walmartimages.com/dfw/4ff9c6c9-a803/k2-_0bd0aeed-88ce-49fe-93d6-dee7d0ede6b4.v1.jpg?odnHeight=340&odnWidth=604&odnBg=FFFFFF",
+            "https://i.imgur.com/1MsBoEC.png",
             "https://github.com/221114-Java-React/PrimaryKeys-P2-Frontend"
         ],
         ["React Bad Bank", 
