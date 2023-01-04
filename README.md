@@ -8,9 +8,14 @@ This is a portfolio to help me solidify my front-end development skills, as well
 
 ## Tech Stack
 
-**Client:** React, TailwindCSS
+**Client:** [React.js](https://reactjs.org/), [TailwindCSS](https://tailwindcss.com/)
 
-**Server:** Firebase
+**Server:** [Firebase](https://firebase.google.com/) 
+
+**CI/CD:** [Firebase-Tools](https://www.npmjs.com/package/firebase-tools)*
+
+**Github actions are enabled. If a branch is created, Firebase-Tools will create a sub-site for testing pre-production (branch) websites and update the sub-site if commits are made to branch. If a commit or merge is made to Main, Firebase-Tools will deploy it to the [main site](https://www.eliasgonzalez.dev/). Firebase-Tools requires a secret, as well as a Firebase account. Any site will not deploy if there are warnings or errors. Website can still deploy locally.*
+
 
 ***This site is available online [here](https://www.eliasgonzalez.dev/)***
 
