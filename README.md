@@ -2,8 +2,10 @@
 
 # Portfolio
 
-This is a portfolio to help me solidify my front-end development skills, as well as provide a good starting point for employers to see my work. If you are an employer: Hello!
+This is a portfolio to help me solidify my front-end development skills, as well as provide a good starting point for employers to see my work.  If you are an employer: Hello!
 
+
+The site is responsively styled, if you size down to phone format, it will adjust (up to a certain point it will break, still working on that!).
 
 
 ## Tech Stack
