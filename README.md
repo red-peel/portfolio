@@ -16,7 +16,7 @@ The site is responsively styled, if you size down to phone format, it will adjus
 
 **CI/CD:** [Firebase-Tools](https://www.npmjs.com/package/firebase-tools)*
 
-**Github actions are enabled. If a branch is created, Firebase-Tools will create a sub-site for testing pre-production (branch) websites and update the sub-site if commits are made to branch. If a commit or merge is made to Main, Firebase-Tools will deploy it to the [main site](https://www.eliasgonzalez.dev/). Firebase-Tools requires a secret, as well as a Firebase account. Any site will not deploy if there are warnings or errors. Website can still deploy locally.*
+**Github actions are enabled. If a branch is created, Firebase-Tools will create a sub-site for testing pre-production (branch) websites and update the sub-site if commits are made to branch. If a commit or merge is made to Main, Firebase-Tools will deploy it to the [main site](https://www.eliasgonzalez.dev/). Firebase-Tools requires a secret, as well as a Firebase account. Any site will not deploy if there are warnings or errors. Website can still deploy locally without Firebase or Firebase-Tools.*
 
 
 ***This site is available online [here](https://www.eliasgonzalez.dev/)***
