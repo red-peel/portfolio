@@ -1,9 +1,12 @@
 import HeroSection from "../components/HeroSection"
 import ProjectPreviewSection from "../components/ProjectPreviewSection";
+import SkillsCards from "../components/SkillsCards";
 
 function HomePage(){
-    return (<>
+    return (
+        <>
         <HeroSection/>
+        <SkillsCards/>
         <ProjectPreviewSection/>
         </>
     )
