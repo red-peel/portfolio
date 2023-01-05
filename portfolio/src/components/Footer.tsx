@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 function Footer() {
-    const navbarMenuItems = [["HOME", "/"], ["ABOUT", "/oops"], ["PROJECTS", "/oops"], ["CONTACT", "/contact"]]
+    const navbarMenuItems = [["HOME", "/"], ["ABOUT", "/about"], ["PROJECTS", "/oops"], ["CONTACT", "/contact"]]
     return (
         <nav className="m-10 flex flex-col place-content-between pr-2">
             <div className='md:self-center'>
