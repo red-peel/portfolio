@@ -35,7 +35,7 @@ function ProjectPreviewSection() {
             <div className="grid grid-cols-1 p-5 md:grid-cols-2 gap-7 md:mx-40 ">
                 {projectPreviewItems.map(([title, description, img, link]) => {
                     return (
-                        <a href={link} className="flex flex-col text-center rounded shadow-lg p-5">
+                        <a href={link} className="flex flex-col text-center rounded shadow-lg p-5 bg-slate-100">
                             <img className="rounded border-2 border-gray-200" src={img} alt={"picture of " + title} />
                             <p className="text-lg font-thin">{title.toUpperCase()}</p>
                             <p>{description}</p>
