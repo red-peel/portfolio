@@ -25,7 +25,7 @@ function SkillsCards() {
     ];
     return (
 
-        <div className="flex gap-10 flex-col md:flex-row md:flex-wrap justify-center px-10">
+        <div className="pt-20 flex gap-10 flex-col md:flex-row md:flex-wrap justify-center px-10">
             {cards.map(([skillGroup, link, description, skills, skillsList]) => {
                 return (
                     <div className="flex-1 md:flex-initial lg:w-1/4 rounded-lg flex flex-col">
