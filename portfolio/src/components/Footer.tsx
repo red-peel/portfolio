@@ -5,7 +5,7 @@ function Footer() {
     return (
         <nav className="m-10 flex flex-col place-content-between pr-2">
             <div className='md:self-center'>
-                <a href="https://github.com/red-peel"><img className='w-10' src="logo192.png" alt="" /></a>
+                <a href="https://github.com/red-peel"><img className='max-h-10 max-w-10' src="logo192.png" alt="" /></a>
             </div>
             <p className="opacity-20 md:self-center">I don't have a copyright yet.</p>
             <menu className="flex flex-col md:flex-row sm:flex-col">
