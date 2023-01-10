@@ -5,7 +5,7 @@
 This is a portfolio to help me solidify my front-end development skills, as well as provide a good starting point for employers to see my work.  If you are an employer: Hello!
 
 
-The site is responsively styled, if you size down to phone format, it will adjust (up to a certain point it will break, still working on that!). It is also highly dynamic in the sense that most repetative components are mapped from arrays. This allows me to implement a request to bring in projects to the project page via an API that returns an array of projects!
+The site is responsively styled, if you size down to phone format, it will adjust (up to a certain point it will break, still working on that!). It is also highly dynamic in the sense that most repetitive components are mapped from arrays. This allows me to implement a request to bring in projects to the project page via an API that returns an array of projects!
 
 
 ## Tech Stack
