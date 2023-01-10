@@ -7,7 +7,8 @@ function Footer() {
             <div className='md:self-center'>
                 <a href="https://github.com/red-peel"><img className='max-h-10 max-w-10' src="logo192.png" alt="" /></a>
             </div>
-            <p className="opacity-20 md:self-center">I don't have a copyright yet.</p>
+            <p className="opacity-20 md:self-center font-bold">I don't have a copyright yet.</p>
+            <p className="opacity-20 md:self-center">Made lovingly with React.js</p>
             <menu className="flex flex-col md:flex-row sm:flex-col">
                 {navbarMenuItems.map(([title, link]) => {
                     return (
