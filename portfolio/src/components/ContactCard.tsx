@@ -4,7 +4,7 @@ function ContactCard() {
             <img className="w-8"src="800blk.png" alt="" />
             <p className="">Elias Gonzalez</p>
             <p className="">210-373-9322</p>
-            <p className="">elim.5927@gmail.com</p>
+            <p className="">elias@eliasgonzalez.dev</p>
         </div>
     )
 }
