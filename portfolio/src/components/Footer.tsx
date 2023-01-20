@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Footer() {
     const navbarMenuItems = [["HOME", "/"], ["ABOUT", "/about"], ["PROJECTS", "/oops"], ["CONTACT", "/contact"]]
     return (
-        <nav className="m-10 flex flex-col place-content-between pr-2">
+        <footer className="m-10 flex flex-col place-content-between pr-2">
             <div className='md:self-center'>
                 <a href="https://github.com/red-peel"><img className='max-h-10 max-w-10' src="logo192.png" alt="" /></a>
             </div>
@@ -17,7 +17,7 @@ function Footer() {
                 })}
             </menu>
 
-        </nav>
+        </footer>
     )
 }
 

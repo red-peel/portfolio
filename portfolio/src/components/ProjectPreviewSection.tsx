@@ -30,20 +30,22 @@ function ProjectPreviewSection() {
     ]
 
     return (
-        <div className="flex flex-col pt-10 md:pt-20 ">
+        <section className="flex flex-col pt-10 md:pt-20 ">
             <h2 className="font-thin text-center text-xl md:text-5xl pb-5 md:pb-10">PROJECTS</h2>
             <div className="grid grid-cols-1 p-5 md:grid-cols-2 gap-12 md:mx-40 ">
                 {projectPreviewItems.map(([title, description, img, link]) => {
                     return (
                         <a href={link} className="flex flex-col transition ease-in-out duration-300 hover:scale-[1.03]  gap-1 text-center rounded shadow-lg p-10 bg-gradient-to-br from-red-50 ">
+                            <article>
                             <img className="rounded border-2" src={img} alt={"picture of " + title} />
                             <p className="text-lg pt-2 font-thin">{title.toUpperCase()}</p>
                             <p>{description}</p>
+                            </article>
                         </a>
                     )
                 })}
             </div>
-        </div>
+        </section>
     )
 }
 

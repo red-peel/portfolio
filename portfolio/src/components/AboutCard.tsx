@@ -1,6 +1,6 @@
 function AboutCard() {
     return (
-        <div className="bg-red-50 md:mt-5 p-10">
+        <section className="bg-red-50 md:mt-5 p-10">
             <div className="flex flex-col md:flex-row gap-10 ">
                 <img className="rounded-full max-w-min md:max-h-80" src="https://pbs.twimg.com/profile_images/1610840568933875715/0d5o43cy_400x400.jpg" alt="" />
                 
@@ -15,7 +15,7 @@ function AboutCard() {
                 </div>
             </div>
 
-        </div>
+        </section>
     )
 }
 
