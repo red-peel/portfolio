@@ -36,11 +36,11 @@ function ProjectPreviewSection() {
                 {projectPreviewItems.map(([title, description, img, link]) => {
                     return (
                         <a href={link} className="flex flex-col transition ease-in-out duration-300 hover:scale-[1.03]  gap-1 text-center rounded shadow-lg p-10 bg-gradient-to-br from-red-50 ">
-                            <article>
-                            <img className="rounded border-2" src={img} alt={"picture of " + title} />
+                            <figure>
+                            <img className="rounded border-2" src={img} alt={"picture of " + title + "project"} />
                             <p className="text-lg pt-2 font-thin">{title.toUpperCase()}</p>
-                            <p>{description}</p>
-                            </article>
+                            <figcaption>{description}</figcaption>
+                            </figure>
                         </a>
                     )
                 })}
