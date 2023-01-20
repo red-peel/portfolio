@@ -7,7 +7,7 @@ function HeroSection() {
                 <div className='bg-black bg-opacity-90 p-10 text-white text-left rounded'>
                     <p className='text-3xl'> Elias Gonzalez</p>
                     <p className='text-xl font-thin'> Fullstack Developer </p>
-                    <p className="md:text-5xl leading-tight">Hello! I am Elias Gonzalez a Fullstack <br/>Java-React developer based out of San Antonio, Texas!</p>
+                    <p className="md:text-5xl leading-tight">Hello! I am Elias Gonzalez a Fullstack <wbr/>Java-React developer based out of San Antonio, Texas!</p>
                 </div>
             </div>
         </main>
